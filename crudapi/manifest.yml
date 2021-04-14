@@ -1,0 +1,9 @@
+applications:
+- name: crudapi
+path: crudapi
+path: target\crudapis.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- management_portal_instance
